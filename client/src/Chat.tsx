@@ -84,7 +84,7 @@ export default function Chat() {
                                                         : `http://localhost:3000/media/generated/${attachment.url.split('/').pop()}`
                                                 }
                                                 alt={attachment.title || "Attached image"}
-                                                className="mt-2 max-w-full rounded-lg"
+                                                className="mt-2 max-w-full rounded-lg px-4"
                                             />
                                         )
                                     ))}
